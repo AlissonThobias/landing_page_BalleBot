@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+
+:root{
+    --fontetitulo: Righteous;
+    --fontepadrão: Sarala;
+    --corprimaria: #FFF2E7 ;
+    --corsegundaria: #ECD6C4;
+    --corborda: #fff2e74b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+}
+
+nav a{
+    font-family: var(--fontepadrão);
+    text-decoration: none;
+    color: var(--corprimaria);
+    font-size: 18px;
+}
+
+
+main{
+    border-top: 0.4px solid var(--corborda);
+}
+
+.conteudo_meio_comeco{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.conteudo_itens{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo_itens h1{
+    font-weight: 400;
+    color: var(--corprimaria);
+    font-weight: 400;
+    font-size: 64px;
+    font-family: var(--fontetitulo)
+}
+
+.conteudo_itens p{
+    color: white;
+    font-family: var(--fontepadrão);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo_itens a{
+    font-family: var(--fontepadrão);
+    background-color: var(--corsegundaria);
+    padding: 10px;
+    width: 164px;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.conteudo_meio_fim{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 70px;
+}
+
+.conteudo_meio_fim h2{
+    font-family: var(--fontetitulo);
+    color: var(--corprimaria);
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 80px;
+    border-top: 0.4px solid var(--corborda);  
+}
+
+.conteudo_meio_fim p{
+    font-family: var(--fontepadrão);
+    color: var(--corsegundaria);
+    font-size: 17px;
+}
+
+footer{
+    border-top: 0.4px solid var(--corborda);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
